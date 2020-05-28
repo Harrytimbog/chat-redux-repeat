@@ -17,9 +17,9 @@ import SelectedChannelReducer from './reducers/selected_channel_reducer';
 const identityReducer = (state = null) => state;
 
 const initialState = {
-  mesaages = [],
+  messages: [],
   channels: ['general', 'react', 'paris'],
-  currentUser: prompt("what is your username?") || 'anonymous${Math.floor(10 + (Math.random() * 90))}',
+  currentUser: `prompt("what is your username?") || 'anonymous${Math.floor(10 + (Math.random() * 90))}`,
   selectedChannel: 'general'
 };
 
